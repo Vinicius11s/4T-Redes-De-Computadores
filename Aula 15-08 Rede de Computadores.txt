@@ -1,0 +1,73 @@
+J.AP - buscando logs no mundo inteiro e proxy
+
+Protocolo Web: http
+Protocolo Web Seguro: https
+
+Decorar camadas
+TCP/IP
+Aplicação
+Transp
+Rede
+Enlace
+Física
+
+3) Como a máquina do usuário soube do endereço IP do servidor?
+Maquina do cliente: Preciso acessar o link, quem resolve o nome DNS
+então quem descobriu o ip do servidor foi o protocolo DNS
+
+4) Identifique os tipos de equipamentos de rede apresentados no vídeo
+e qual a funcionalidade de cada um.
+Switch
+Roteador
+
+5) Porque existe um serviço de proxy na rede do usuário/cliente?
+Justamente para controle administrativo da rede
+Bloquear sites indesejados na empresa e etc.
+
+6) Porque existe um serviço de firewall na rede do servidor?
+Para barrar entradas indesejadas, para proteger os serviços internos
+banco de dados etc.
+
+7) No vídeo, foram citadas algumas portas do firewall, onde algumas estavam
+abertas e outras fechadas.Para que serve a porta? O que justifica um
+servidor estar com porta aberta ou fechada?
+Para acessar o serviço uma porta precisa estar aberta, para haver
+troca de dados,entrada e saída, por padrão porta 80
+Firewall precisa liberar dados de entrada e saida por essa porta.
+
+8) O que é um “ping da morte”? Para que serve?
+Faz se um ataque a um determinado alvo para derrubar o serviço dele
+Muitos dados enviados a um único ponto, aquele servidor não da conta
+e é derrubado.
+
+9) O que é a 1-Internet e qual a diferença para a 2-Intranet e 3-Extranet?
+1- Inter-conexão de várias redes locais
+2- Mais voltada para org. Não e disponivel publicamente, tem q ter uma
+validação para acessar a internet
+3- Envolve um fornecedor, passa a ter acesso a rede da empresa
+
+10) Quanto tempo leva para um pacote de origem chegar a um servidor 
+de destino?
+Depende do link, depende da rota, normamente, Menos de 1s.
+
+11) O conteúdo web em HTML é montado de uma só vez no navegador do cliente ou em partes?
+Partes
+
+12) E se um pacote que está levando um conteúdo web for perdido, o que deverá acontecer?
+Tem que mandar o mesmo item da mesma forma que saiu da  origem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

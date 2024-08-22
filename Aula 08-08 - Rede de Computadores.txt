@@ -1,0 +1,32 @@
+Camadas
+
+USUÁRIO
+
+Aplicação - HTTP, FTP, DNS, DHCP, E-MAIL
+Transporte - Garantir q as coisas das camadas a baixo ser transmitida
+Rede - roteador
+Enlace - switch - placa de rede, transmição, controle
+Fisicas - cabo de rede, faixa de radio, wifi, luz fibra otica
+
+Celular, Computador todas as camadas
+Roteador até enlace
+
+-------------
+IP - protocolo de inter-rede
+Camada rede
+IPV4 - limitação de tamanho
+IPv4 - 32 bits - 4 Bi de endereços aprox
+
+IPv6 - 128 bits - 
+ou ips falsos nos dispositivos que se ligam a um só ip verdadeiro
+um só local
+
+Filme Piratas do Vale di Silícioip
+
+Gateway - unico ponto de saida
+
+ipconfing/all
+
+
+
+
