@@ -1,0 +1,35 @@
+DNS - Resolver nomes
+DHCP - Distribuição de Ips
+HTTP - 
+80 - porta aberta por padrão para o Protocolo de Transferência de Hipertexto (HTTP)(WEB),
+que é responsável por tornar a internet possível. 
+
+67 - porta aberta paraA porta 67 é utilizada pelos servidores do protocolo DHCP. O
+DHCP permite a configuração automática e dinâmica de computadores conectados a uma rede.
+
+21 - porta aberta para protocolo FTP
+
+25 - usa porta para mandar e-mail (SMTP)
+110 - usa porta para Ler e-mail (POP)
+
+
+
+comando ftp - dedicado p autenticação REMOTA
+ftp ftp.toledo.br
+protocolo exe - alvo
+?
+
+ftp ftp.toledo.br
+put- criar um arquivo no ftp
+dir- listar diretorios
+delete - deletar
+get- transferir arquivo p minha maq
+quit - fechar conexão
+
+comando nslookip
+Server: [192.168.0.3]
+Address:  192.168.0.3
+servidor DNS ^
+
+comando
+tracert (rastreia rota)
