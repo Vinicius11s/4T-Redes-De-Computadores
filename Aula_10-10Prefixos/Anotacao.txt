@@ -1,0 +1,81 @@
+A menor rede : /30
+Porque só da a entrega de 4 Hosts
+Tira 1 Host para broadcast /e um para identificação da rede
+Sobra 2 Hosts para equipamentos
+O que é Host = qualquer coisa que fala Ip, celular, tv
+
+Rede = 192.168.0.0 /24 - 254 Hosts Disponiveis / 255-Já é Broadcast
+Ip´s distribuidos a partir de 192.168.0.1
+BroadCast 192.168.0.255
+Máscara 255.25.255.0 -> Conversão d binário p decimal dos bits ativados
+
+Se eu diminuir o prefixo de /24 para /23..
+Vou dividir a Quantidade de redes..
+E multiplicar por 2 os Hosts
+
+Endereços Binários
+/24
+1º Octeto / 2º Octeto /3° Octeto / 4° Octeto
+ 11111111   11111111    11111111   00000000    
+Máscara : 255.255.255.0
+
+/25
+1º Octeto / 2º Octeto /3° Octeto / 4° Octeto
+ 11111111   11111111    11111111   10000000    
+Máscara : 255.255.255.128
+
+Em uma resolução de exercício
+Se uma máscara é 255.255.255.0 - O prefixo da Rede seria /24
+Se uma rede é 192.168.0.0 e o último Host da rede é 192.168.0.510 - O prefixo da Rede seria /25
+
+Sub Redes...
+Distribuição dos endereços:
+SUB-REDE 1:
+Rede (R1) : 192.168.0.0
+Broadcast : 192.168.0.63
+Máscara : 255.255.255.192
+1º Host : 192.168.0.1
+Últ. Host : 192.168.0.62
+
+SUB-REDE 2:
+Rede (R2) : 192.168.0.64
+Broadcast : 192.168.0.127
+Máscara : 255.255.255.192
+1º Host : 192.168.0.65
+Últ. Host : 192.168.0. 126
+
+SUB-REDE 3:
+Rede (R3) : 192.168.0.128
+Broadcast : 192.168.0.191
+Máscara : 255.255.255.192
+1º Host : 192.168.0.129
+Últ. Host : 192.168.0. 190
+
+192.168.0.255 Ele é Host, porque é o último
+
+Exe da Aula 
+Teodoro Sampaio = 2019 Host - /21
+Rancharia = 220 Host / 24
+Epitácio = 630 Host - /22
+Assis = 67 Host - / 25
+Pompeia = 35 Host - /26
+Bauru = 963 Host - /22
+
+SUB REDES 
+Teodoro Sampaio
+corte no 3 octeto (/21)
+180.100.0.0 (Adquirido por Outra empresa)
+180.100.8.0 (exercício fala que minha rede começa aqui) vai ate 180.100.15.255
+2 elevado ao corte = quantas sub redes vou ter
+como é o bit 3 = 2 elevado a 3
+no caso desse = 8 = vai variar de 8 em 8;
+
+Bauru = /22
+Vai variar de 4 em 4
+começa 180.100.16.0 ate 180.100.19.255
+
+Epitácio 
+
+
+
+ 

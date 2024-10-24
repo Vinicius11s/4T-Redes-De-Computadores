@@ -1,0 +1,18 @@
+Camada de Transporte (Protocólos)
+TCP:
+Quem usa: HTTP, FTP, E-MAIL (SMTP, POP) / Download , Uploads de arquivos
+Reenvia dados perdidos
+Processa em ordem
+
+UDP:
+Quem usa: DNS, SHCP, VÍDEO, VOZ 
+Exige menos do equipamento
+Poder ter perda e é mais rápido
+
+RFC:
+Trata-se de uma coleção de publicações que documentam padrões, serviços,
+protocolos e outras informações técnicas oficiais da Internet
+
+netstat -nab / mostra qual programa usou para abrir uma porta
+Site saber porta: iana
+whois.com

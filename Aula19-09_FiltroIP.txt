@@ -1,0 +1,18 @@
+Filtragem de protocolos por ip
+ip.src == 192.168.32.80
+ip.src == 192.168.32.80 && icmp
+
+Regras: (Protocolos) - Camada de Aplicação 
+DHCP,EMAIL,DNS
+HTTP, SMTP, POP
+
+Rede convergente = todo mundo consegue se falar na rede (pc, antena, telefone)
+
+Segmentação: quebrar em partes menores
+Multiplecçação: Pegar cada parte e ir transferindo
+
+LAN (local area network) - 
+Para ser precisa ser adm por uma organização
+
+DADOS,SEGUIMENTO,PACOTE,QUADRO,BITS
+D,S,P,Q,B
